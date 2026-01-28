@@ -1,6 +1,6 @@
 import './App.css'
 // 1. Change BrowserRouter to HashRouter
-import { HashRouter as Router, Routes, Route } from 'react-router-dom' 
+import { HashRouter as Router, Routes, Route } from 'react-router' 
 import Hero from './pages/Hero'
 import About from './pages/About'
 import Projects from './pages/Projects'
