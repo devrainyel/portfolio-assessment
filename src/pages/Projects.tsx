@@ -31,7 +31,7 @@ const Projects = () => {
       {/* Projects Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectList.map((project) => (
-          <Card key={project.id} className="group overflow-hidden border-muted-foreground/20 hover:border-primary/50 transition-all duration-300 flex flex-col">
+          <Card key={project.id} className="group overflow-hidden border-muted-foreground/20 hover:border-primary/50 transition-all duration-300 flex flex-col h-full">
             
             {/* Project Thumbnail */}
             <div className="relative overflow-hidden aspect-video">
@@ -62,12 +62,12 @@ const Projects = () => {
             </CardHeader>
 
             <CardContent className="flex-grow">
-              <CardDescription className="text-sm leading-relaxed line-clamp-3 text-foreground/70">
+              <CardDescription className="text-sm leading-relaxed text-foreground/70">
                 {project.description}
               </CardDescription>
             </CardContent>
 
-            <CardFooter className="gap-4 pt-4 border-t">
+            <CardFooter className="gap-4 pt-4 border-t mt-auto">
               <Button variant="default" className="flex-1 gap-2" asChild>
                 <a href={project.liveLink} target="_blank" rel="noreferrer">
                   <ExternalLink className="w-4 h-4" /> Live Demo
