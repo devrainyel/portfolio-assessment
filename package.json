@@ -2,15 +2,12 @@
   "name": "apex-assessment-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://devrainyel.github.io/porfolio-assessment",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-aspect-ratio": "^1.1.8",
