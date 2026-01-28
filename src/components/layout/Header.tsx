@@ -73,7 +73,7 @@ const Header = () => {
                   </a>
                 ))}
                 <div className="pt-4 ml-3 mt-4 border-t">
-                  <Button className="w-auto" size="lg">
+                  <Button className="w-auto" size="lg" asChild>
                     <a href="#contact">Contact</a>
                   </Button>
                 </div>
