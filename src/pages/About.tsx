@@ -1,6 +1,5 @@
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Code2, Server, Database, Layout } from "lucide-react";
+import { Code2, Server, Layout } from "lucide-react";
 
 const About = () => {
   const skills = [
